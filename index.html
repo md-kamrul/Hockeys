@@ -38,7 +38,7 @@
             color: #13131899
         }
 
-        .custom_button{
+        .custom_button {
             background-color: #FF4240;
             color: white;
         }
@@ -75,15 +75,16 @@
                                     <li><a>Contact</a></li>
                                 </ul>
                             </div>
-                            <a class="text-3xl lg:text-4xl custom_color font-extrabold">Hockey<span class="primary_color">’</span>s</a>
+                            <a class="text-3xl lg:text-4xl custom_color font-extrabold">Hockey<span
+                                    class="primary_color">’</span>s</a>
                         </div>
                         <div class="navbar-center hidden lg:flex">
                             <ul class="menu menu-horizontal px-1 text-[#424247] font-normal">
                                 <li><a class="primary_color">Home</a></li>
-                                    <li><a>About</a></li>
-                                    <li><a>Page</a></li>
-                                    <li><a>Blog</a></li>
-                                    <li><a>Contact</a></li>
+                                <li><a>About</a></li>
+                                <li><a>Page</a></li>
+                                <li><a>Blog</a></li>
+                                <li><a>Contact</a></li>
                             </ul>
                         </div>
                         <div class="navbar-end gap-5">
@@ -94,6 +95,62 @@
                 </div>
             </nav>
         </section>
+
+        <!-- slider section -->
+        <div class="container md:px-5 lg:px-24 rounded-2xl mb-24 mt-5 lg:-mt-4">
+            <div class="carousel w-full">
+
+                <!-- slider 1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="/Images/slider_1.png" class="w-full rounded-lg" />
+
+                    <div class="absolute flex gap-5 transform -translate-y-1/2 left-5 bottom-8">
+                        <a href="#slide4" class="btn btn-circle bg-[#131318] border-none text-white">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-[#131318] border-none text-white">❯</a>
+                    </div>
+                    <div>
+                        <!-- text box on slider 1 -->
+                    <div class="absolute w-full bottom-0 md:w-1/2 md:bottom-5 md:right-5 p-8 bg-[#131318] rounded-xl">
+                        <h4 class="text-white mb-3 font-extrabold text-2xl">
+                            Meet all the heroes from the field
+                        </h4>
+                        <p class="text-[#ffffff99]">
+                            Dive into the
+                            stories behind the names, the legends etched in slapshots and saves – this is where hockey's
+                            true heroes come alive.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- slider 2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="/Images/slider_2.jpg" class="w-full rounded-lg" />
+                    <div class="absolute flex gap-5 transform -translate-y-1/2 left-5 bottom-8">
+                        <a href="#slide1" class="btn btn-circle bg-[#131318] border-none text-white">❮</a>
+                        <a href="#slide3" class="btn btn-circle bg-[#131318] border-none text-white">❯</a>
+                    </div>
+                </div>
+
+                <!-- slider 3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="/Images/slider_3.jpg" class="w-full rounded-lg" />
+                    <div class="absolute flex gap-5 transform -translate-y-1/2 left-5 bottom-8">
+                        <a href="#slide2" class="btn btn-circle bg-[#131318] border-none text-white">❮</a>
+                        <a href="#slide4" class="btn btn-circle bg-[#131318] border-none text-white">❯</a>
+                    </div>
+                </div>
+
+                <!-- slider 4 -->
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="/Images/slider_4.jpg" class="w-full rounded-lg" />
+                    <div class="absolute flex gap-5 transform -translate-y-1/2 left-5 bottom-8">
+                        <a href="#slide3" class="btn btn-circle bg-[#131318] border-none text-white">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-[#131318] border-none text-white">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </header>
     <!-- header section ends -->
