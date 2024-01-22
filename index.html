@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme = "light">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -26,26 +26,74 @@
             font-family: 'Manrope', sans-serif;
         }
 
-        .primary_color{
+        .primary_color {
             color: #FF4240;
         }
 
-        .title_color{
+        .title_color {
             color: #131318;
         }
 
-        .description_color{
+        .description_color {
             color: #13131899
+        }
+
+        .custom_button{
+            background-color: #FF4240;
+            color: white;
         }
     </style>
     <!-- custom styles ends -->
 
 </head>
 
-<body>
+<body class="custom_fonts">
 
     <!-- header section starts -->
     <header>
+
+        <!-- navbar section -->
+        <section>
+            <nav>
+                <div class="container mx-auto lg:px-32 lg:py-10 bg-primary_color">
+                    <div class="navbar">
+                        <div class="navbar-start">
+                            <div class="dropdown">
+                                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M4 6h16M4 12h8m-8 6h16" />
+                                    </svg>
+                                </div>
+                                <ul tabindex="0"
+                                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-[#424247] font-normal">
+                                    <li><a class="primary_color">Home</a></li>
+                                    <li><a>About</a></li>
+                                    <li><a>Page</a></li>
+                                    <li><a>Blog</a></li>
+                                    <li><a>Contact</a></li>
+                                </ul>
+                            </div>
+                            <a class="text-3xl lg:text-4xl custom_color font-extrabold">Hockey<span class="primary_color">’</span>s</a>
+                        </div>
+                        <div class="navbar-center hidden lg:flex">
+                            <ul class="menu menu-horizontal px-1 text-[#424247] font-normal">
+                                <li><a class="primary_color">Home</a></li>
+                                    <li><a>About</a></li>
+                                    <li><a>Page</a></li>
+                                    <li><a>Blog</a></li>
+                                    <li><a>Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="navbar-end gap-5">
+                            <a href="#" class="hidden lg:flex"><img src="./Images/search.png" alt="search"></a>
+                            <a class="btn custom_button px-6">Get Ticket</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
 
     </header>
     <!-- header section ends -->
