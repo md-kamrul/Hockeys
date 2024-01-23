@@ -749,7 +749,7 @@
 
         <!-- get in touch details section -->
         <section class="contact_title container mx-auto px-5 lg:px-20 mb-10">
-            <div class="grid grid-cols-1 md:grid-cols-3">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 justify-center items-center">
 
                 <!-- left box -->
                 <div class="p-4 lg:p-10 col-span-1 rounded-xl border border-[#1313181A] justify-center items-center">
@@ -789,8 +789,42 @@
                 </div>
 
                 <!-- right box -->
-                <div>
-
+                <div class="col-span-2">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-5">
+                        <div>
+                            <label for="" class="title_color text-xl font-bold">
+                                Your Name
+                            </label>
+                            <input type="text" placeholder="Enter your full name" class="input w-full bg-[#13131808] mt-4" />
+                        </div>
+                        <div>
+                            <label for="" class="title_color text-xl font-bold">
+                                Your Email
+                            </label>
+                            <input type="email" placeholder="Enter your email" class="input w-full bg-[#13131808] mt-4" />
+                        </div>
+                        <div>
+                            <label for="" class="title_color text-xl font-bold">
+                                Subject
+                            </label>
+                            <input type="text" placeholder="Enter your subject" class="input w-full bg-[#13131808] mt-4" />
+                        </div>
+                        <div>
+                            <label for="" class="title_color text-xl font-bold">
+                                Phone Number
+                            </label>
+                            <input type="number" placeholder="Enter your phone number" class="input w-full bg-[#13131808] mt-4" />
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <label for="" class="title_color text-xl font-bold">
+                            Message
+                        </label>
+                        <textarea class="textarea w-full bg-[#13131808] mt-4" rows="7" placeholder="Write your message"></textarea>
+                    </div>
+                    <button class="btn w-full custom_button">
+                        Send Message
+                    </button>
                 </div>
             </div>
         </section>
